@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -20,7 +21,6 @@ public class GameManager : MonoBehaviour
     }
 
     private void Awake() {
-
         //Remove scene duplicates
         if (_instance != null && _instance != this) {
             Destroy(this.gameObject);
@@ -31,7 +31,6 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject); //Keep scene across loads
 
         OnAwake();
-
     }
     #endregion
 
@@ -41,6 +40,12 @@ public class GameManager : MonoBehaviour
     private void OnAwake() {
         //lalalalalala
         //okay so what now ahhh
+
+
+    }
+
+    public void NextScene() {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
