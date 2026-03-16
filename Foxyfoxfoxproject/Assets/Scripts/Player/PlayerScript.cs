@@ -25,21 +25,21 @@ public class PlayerScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision) {
         Vector2 normalVector = collision.contacts[0].normal;
+
         if(Vector2.Dot(normalVector, Vector3.down) < 0f) {
             //collided with the ground
             isTouchingGround = true;
+        } 
+        
+        if (collision.gameObject.CompareTag("soul")) {
+            Destroy(collision.gameObject);
+            MainSceneManager.Instance.incrementSoulsCounted();
         }
-
-        Debug.Log(Vector2.Dot(normalVector, Vector3.down));
     }
 
     private void OnCollisionExit2D(Collision2D collision) {
         if (collision.gameObject.CompareTag("foreground"))
             isTouchingGround = false;
-        else if (collision.gameObject.CompareTag("soul")) {
-            Destroy(collision.gameObject);
-            MainSceneManager.Instance.incrementSoulsCounted();
-        }
     }
 
     void FixedUpdate()

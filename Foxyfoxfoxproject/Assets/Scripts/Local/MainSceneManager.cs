@@ -43,7 +43,7 @@ public class MainSceneManager : MonoBehaviour
 
     public void incrementSoulsCounted() {
         soulsCounted++;
-        counterText.text = "Souls Counted:" + soulsCounted;
+        counterText.text = "Souls Counted: " + soulsCounted;
     }
 
 }
