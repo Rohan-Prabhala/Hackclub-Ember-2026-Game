@@ -3,3 +3,5 @@ THIS PROJECT IS DUE IN 2 DAYS WTF ARE WE DOING WHYD WE PROCRASTINATE SO LONG AHH
 
 
 I lwk dont wanna reveal the game idea until WE make the actual game
+
+this is the itch.io page: https://rohan-prabhala.itch.io/foxy-embers
