@@ -2,6 +2,6 @@
 THIS PROJECT IS DUE IN 2 DAYS WTF ARE WE DOING WHYD WE PROCRASTINATE SO LONG AHHHH I BLAME JENNA     ALSO ITS ABOUT A SWIFT FOX A FAT SEAL AND CATS
 
 
-I lwk dont wanna reveal the game idea until WE make the actual game
+I dont wanna reveal the game idea until WE make the actual game
 
 this is the itch.io page: https://rohan-prabhala.itch.io/foxy-embers
